@@ -77,3 +77,4 @@ GET /identify
 ```
 **Description:**
 - Retrieves all stored contacts from the database.
+  
