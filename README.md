@@ -111,7 +111,7 @@ curl -X POST "https://linkify-api.onrender.com/identify" \
 
 ## License
 This project is open-source
-```
+---
 
 🚀 **Developed with ❤️ by Akshat Kumar Saini**
 
