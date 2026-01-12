@@ -33,3 +33,7 @@ npm install
 MONGO_URI=your_mongodb_connection_string
 PORT=10000
 ```
+4. Start the server:
+   ```bash
+   node index.js
+   ```
