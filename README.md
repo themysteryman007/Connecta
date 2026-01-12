@@ -70,3 +70,10 @@ POST /identify
   "__v": 0
 }
 ```
+### **2. Get All Contacts (GET /identify)**
+**Endpoint:**
+```
+GET /identify
+```
+**Description:**
+- Retrieves all stored contacts from the database.
