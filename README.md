@@ -77,4 +77,37 @@ GET /identify
 ```
 **Description:**
 - Retrieves all stored contacts from the database.
-  
+**Response:**
+   ```json
+  {
+    "_id": "65f01aa93c8d441234abcd90",
+    "name": ["Rohan Mehta", "R. Mehta"],
+    "emails": ["rohan.mehta@company.com"],
+    "phoneNumbers": ["+918888777666", "+919900112233"],
+    "secondaryContactIds": ["65f01a1b3c8d441234abcd12"],
+    "updatedAt": "2025-07-01T09:10:00.000Z",
+    "createdAt": "2025-06-20T12:00:00.000Z",
+    "__v": 0
+  }
+  ```
+   ## Deployment
+The API is deployed on **Render** and can be accessed at:
+```
+  https://connecta.onrender.com
+```
+## Testing the API
+You can use **Postman** or **cURL** to test the endpoints.
+
+### **Example cURL for POST request**
+```bash
+curl -X POST "https://linkify-api.onrender.com/identify" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@company.com",
+    "phone": "+918888777666"
+  }'
+```
+## License
+This project is open-source
+
