@@ -108,8 +108,10 @@ curl -X POST "https://linkify-api.onrender.com/identify" \
     "phone": "+918888777666"
   }'
 ```
+
 ## License
 This project is open-source
+```
 
 🚀 **Developed with ❤️ by Akshat Kumar Saini**
 
