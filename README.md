@@ -47,3 +47,26 @@ POST /identify
 ```
 **Description:**
 - Accepts an email and/or phone number to create or merge contacts.
+
+   **Request Body:**
+```json
+{
+  "name": "Rohan Mehta",
+  "email": "rohan.mehta@company.com",
+  "phone": "+918888777666"
+}
+```
+
+**Response:**
+```json
+{
+  "_id": "65f01aa93c8d441234abcd90",
+  "name": ["Rohan Mehta", "R. Mehta"],
+  "emails": ["rohan.mehta@company.com"],
+  "phoneNumbers": ["+918888777666", "+919900112233"],
+  "secondaryContactIds": ["65f01a1b3c8d441234abcd12"],
+  "updatedAt": "2025-07-01T09:10:00.000Z",
+  "createdAt": "2025-06-20T12:00:00.000Z",
+  "__v": 0
+}
+```
