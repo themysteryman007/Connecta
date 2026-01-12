@@ -18,4 +18,5 @@ This backend API is developed using Node.js and Express.js, with MongoDB as the 
 # Installation
 1.Clone the repository
 '''bash
-git clone 
+git clone https://github.com/themysteryman007/Connecta.git
+cd connecta
