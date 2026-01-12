@@ -37,3 +37,13 @@ PORT=10000
    ```bash
    node index.js
    ```
+
+   ## API Endpoints
+
+### **1. Identify Contact (POST /identify)**
+**Endpoint:**
+```
+POST /identify
+```
+**Description:**
+- Accepts an email and/or phone number to create or merge contacts.
