@@ -20,3 +20,10 @@ This backend API is developed using Node.js and Express.js, with MongoDB as the 
 ```bash
 git clone https://github.com/themysteryman007/Connecta.git
 cd connecta
+2. Install dependencies
+```bash
+npm install
+3. Create a `.env` file in the root directory and configure the environment variables:
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=10000
