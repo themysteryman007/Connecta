@@ -89,10 +89,7 @@ GET /identify
     "createdAt": "2025-06-20T12:00:00.000Z",
     "__v": 0
   }
-  ```
-   ## Deployment
-The API is deployed on **Render** and can be accessed at:
-```
+
   https://connecta.onrender.com
 ```
 ## Testing the API
