@@ -88,7 +88,7 @@ GET /identify
     "__v": 0
   }
 
-  https://connecta.onrender.com
+  
 ```
 ## Testing the API
 You can use **Postman** or **cURL** to test the endpoints.
